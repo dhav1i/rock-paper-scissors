@@ -13,7 +13,7 @@ let randomChoice = Math.floor(Math.random() * 3)
 }
 
 function getHumanChoice() {
-let userChoice = prompt("What's your choice?").toLowerCase()
+let userChoice = prompt("Choose 'Rock', 'Paper', or 'Scissors'.").toLowerCase()
         return userChoice
 }
 
